@@ -1,0 +1,189 @@
+.square{
+	width: 30%; 
+	background: rgb(31, 31, 20);
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+    border-radius: 20%;
+    transition: background 0.7s;
+    -webkit-transition: background 0.7s;
+    -moz-transition: background 0.7s;	
+}
+
+body {
+	background-color: rgb(31, 31, 20);
+	margin: 0;
+	font-family: "Montserrat", "Avenir";
+}
+
+#container {
+	margin: 20px auto;
+	max-width: 600px;
+}
+
+#colorDisplay {
+    font-size: 200%;
+}
+
+h1 {
+	text-align: center;
+	line-height: 1.1;
+	color: white;
+	background: steelblue;
+	margin: 0;
+	font-weight: normal;
+	text-transform: uppercase;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+#stripe {
+	background: white;
+	height: 30px;
+	text-align: center;
+	color: black;
+}
+
+#message {
+	display: inline-block;
+	width: 20%;
+	font-family: "Montserrat";
+    color: steelblue;
+    font-weight: 800;
+}
+
+
+#message:hover {
+       font-size: 140%; 
+}
+
+.selected {
+	color: white;
+	background: steelblue;
+}
+
+button {
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 1.5s;
+	-webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;	
+    outline: none;
+}
+
+button:hover {
+	color: white;
+	background: steelblue;
+}
+
+#left {
+	position: fixed;
+	bottom: 30px;
+	left: 58px;
+	font-family: "Montserrat";
+	color: white;
+	margin: 0;
+	border: 2.5px solid steelblue;
+	display:inline-block;
+    border:0;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);   
+
+}
+
+
+#left:hover {
+	 box-shadow: 0px 0px 150px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+}
+
+#creator {
+	font-family: "Montserrat";
+	font-size: 120%;
+
+}
+#creator:hover {
+     color: steelblue;
+}
+
+#right {
+	position: fixed;
+	bottom: 30px;
+	right: 58px;
+	font-family: "Montserrat";
+	color: white;
+	margin: 0;
+	border: 2.5px solid steelblue;
+	display:inline-block;
+    border:0;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);   
+}
+
+#right:hover {
+    box-shadow: 0px 0px 150px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+
+}
+
+#credit {
+	font-size: 120%;
+}
+#credit:hover {
+     color: steelblue;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: steelblue;
+}
+
+/* selected link */
+a:active {
+    color: white;
+}
